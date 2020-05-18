@@ -1,0 +1,199 @@
+html{
+	min-height: 100%
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+	background-color: #e3d8e6;
+	min-height: 100%;
+	
+}
+
+form{
+	padding: 20px;
+	margin-top:60px;
+}
+
+.createForm {
+	background-color: #e3d8e6;
+}
+
+form button,form h5{
+	margin: 20px 0;
+}
+
+form button {
+	width:100%
+}
+
+/* .project-summary div span img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+} */
+
+.goback {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	height: 40px;
+	background-color: #26a69a;
+}
+
+.aaaa{
+	color:white;
+}
+
+/* #gobackbutton {
+	padding-top: 10px;
+}
+ */
+
+
+.namehome {
+	text-transform: uppercase;
+	color: #4d4d49;
+	text-align: left;
+}
+
+
+.addresshome {
+	font-weight: 300;
+	color: #6e6e69;
+	text-align: left;
+}
+
+.details{
+  position: relative;
+  /* Adjust these values accordingly */
+  top: 8px;
+	
+}
+
+
+.record{
+	height: 500px;
+	width: auto;
+}
+
+.carousel .slide.selected{
+	background-color: #e3d8e6;
+	height: 200px;
+	width: auto;
+}
+
+.carousel .slide{
+	background-color: #e3d8e6;
+	height: 200px;
+	width: auto;
+}
+
+
+.carousel.carousel-slider .control-arrow {
+	color: black;
+}
+
+/* .carousel.carousel-slider .control-arrow:hover{
+	shadow: 2px 0px 0px rbg(0,0,0)
+}
+ */
+.carousel .control-dots .dot{
+	color: #4d4d49;
+	width: 20px;
+	height: 20px;
+}
+
+div.record{
+	height: 200px;
+	width: auto;
+}
+
+img {
+	height: 200px;
+	width: auto;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	padding-bottom:12px;
+}
+
+/* i {
+	padding-top: 5px;
+}
+ */
+.control-arrow{
+	background: black;	
+}
+
+.slider-wrapper{
+	height:200px;
+}
+
+.carousel-root .h6{
+	text-align: left;
+}
+
+.carousel.carousel-slider {
+	height:240px;
+}
+
+.carousel-root{
+	margin-top: 200px;
+	height: 240px;
+}
+
+.carouel-root .carousel.carousel-slider .control-dots{
+	height: 14px;
+	width: 14px;
+}
+
+/* .indiphoto{
+	height: 200px;
+	width: auto;
+} */
+
+@media only screen and (min-width: 400px) {
+	.indiphoto{
+		height:350px;
+		width: auto;
+	}
+}
+
+nav {
+	height: 50px;
+	line-height: 50px;
+	font-weight: 300;
+}
+
+
+.indirec{
+	margin: 0 auto;
+	padding-top: 150px;
+}
+
+
+
+
+
+
+
+
+
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]){
+  border-color: #0b403b;
+  box-shadow: none;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label{
+  color: #ec407a !important;
+}
+
